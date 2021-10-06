@@ -2,8 +2,16 @@
 body{
     background-image: url(../assets/mm.jfif);
     background-repeat: no-repeat ;
-    background-size: 100%;
+    background-size: cover;
     
+}
+
+input{
+    text-align: centers;
+}
+
+textarea{
+    resize: none;
 }
 
 h1, h2, b {
@@ -26,7 +34,14 @@ footer{
     background-color: rgb(0, 0, 0);
     height: 50px;
     width: 100%;
-    margin: 0%;
     color: burlywood;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#enviar{
+    background: burlywood;
+    
 }
